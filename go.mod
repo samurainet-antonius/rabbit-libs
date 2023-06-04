@@ -1,4 +1,4 @@
-module git.ainosi.co.id/go-libs/rabbit-lib
+module github.com/samurainet-antonius/rabbit-libs
 
 go 1.12
 

@@ -6,12 +6,12 @@ import (
 	"os"
 	"sync"
 
-	consumer "git.ainosi.co.id/go-libs/rabbit-lib/consumer"
-	"git.ainosi.co.id/go-libs/rabbit-lib/lib/debug"
-	"git.ainosi.co.id/go-libs/rabbit-lib/rabbitmq"
 	config "github.com/joho/godotenv"
+	consumer "github.com/samurainet-antonius/rabbit-libs/consumer"
+	"github.com/samurainet-antonius/rabbit-libs/lib/debug"
+	"github.com/samurainet-antonius/rabbit-libs/rabbitmq"
 	"github.com/streadway/amqp"
-	// publisher "git.ainosi.co.id/go-libs/rabbit-lib/publisher"
+	// publisher "github.com/samurainet-antonius/rabbit-libs/publisher"
 )
 
 func main() {

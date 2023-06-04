@@ -2,7 +2,7 @@
 Manage Rabbit connection, publish, consume, etc
 
 ## How to change existing code
-1. add import `import "git.ainosi.co.id/go-libs/rabbit-lib/rabbitmq"`
+1. add import `import "github.com/samurainet-antonius/rabbit-libs/rabbitmq"`
 2. Replace `amqp.Connection` with `rabbitmq.Connection` and `amqp.Channel` with `rabbitmq.Channel`
 
 ## Example

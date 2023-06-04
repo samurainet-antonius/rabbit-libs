@@ -5,7 +5,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	debug "git.ainosi.co.id/go-libs/rabbit-lib/lib/debug"
+	debug "github.com/samurainet-antonius/rabbit-libs/lib/debug"
 	"github.com/streadway/amqp"
 )
 
